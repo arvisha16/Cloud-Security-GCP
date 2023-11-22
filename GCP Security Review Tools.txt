@@ -1,9 +1,11 @@
 https://hacksheets.medium.com/my-list-of-gcp-security-review-tools-6173d53cc58d
 
 ScoutSuite
-Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically.
+Scout Suite is an open-source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. 
+Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically.
 
-Scout Suite was designed by security consultants/auditors. It is meant to provide a point-in-time security-oriented view of the cloud account it was run in. Once the data has been gathered, all usage may be performed offline.
+Scout Suite was designed by security consultants/auditors. It is meant to provide a point-in-time security-oriented view of the cloud account it was run in.
+Once the data has been gathered, all usage may be performed offline.
 
 https://github.com/nccgroup/ScoutSuite
 
@@ -13,24 +15,24 @@ G-Scout is a tool for auditing Google Cloud Platform configurations. By making A
 https://github.com/nccgroup/G-Scout
 
 gcp-audit
-gcp-audit takes a set of projects and audits them for common issues as defined by its ruleset. Issues can include, but are certainly not limited to, storage buckets with read/write permissions for anyone and compute engine instances with services exposed to the Internet.
+gcp-audit takes a set of projects and audits them for common issues as defined by its ruleset. Issues can include but are certainly not limited to, storage buckets with read/write permissions for anyone and compute engine instances with services exposed to the Internet.
 
 https://github.com/spotify/gcp-audit
 
 gcp-iam-collector
-Python scripts for collecting and visualising Google Cloud Platform IAM permissions
+Python scripts for collecting and visualizing Google Cloud Platform IAM permissions
 
-GCP IAM graph is created using vis.js and it’s static HTML page, see example interactive graph
+GCP IAM graph is created using vis.js and its static HTML page, see example interactive graph
 
 https://github.com/marcin-kolda/gcp-iam-collector
 
 
 GCPBucketBrute
-A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
+A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privileged escalated.
 
 https://github.com/RhinoSecurityLabs/GCPBucketBrute
 
 gcloud command-line tool
-The gcloud command-line interface is the primary CLI tool to create and manage Google Cloud resources. You can use this tool to perform many common platform tasks either from the command line or in scripts and other automations. This tool can be used to identify security misconfigurations manually.
+The gcloud command-line interface is the primary CLI tool to create and manage Google Cloud resources. You can use this tool to perform many common platform tasks either from the command line or in scripts and other automation. This tool can be used to identify security misconfigurations manually.
 
 https://cloud.google.com/sdk/gcloud/
